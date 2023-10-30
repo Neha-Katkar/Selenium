@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BrokenLinkTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BrokenLinkTest(failed)">
+    <classes>
+      <class name="JALA_Assignment1.Selenium.BrokenLinkTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testBrokenLinks"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- JALA_Assignment1.Selenium.BrokenLinkTest -->
+    </classes>
+  </test> <!-- BrokenLinkTest(failed) -->
+</suite> <!-- Failed suite [BrokenLinkTestSuite] -->

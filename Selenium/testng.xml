@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="Alert">
+        <classes>
+            <class name="JALA_Assignment1.Selenium.ConfirmBoxTest"/>
+            <class name="JALA_Assignment1.Selenium.PromptBoxTest" />
+            <class name="JALA_Assignment1.Selenium.AlertBoxTest" />                                  
+        </classes>
+    </test>
+
+    <test name="LinkTests">
+        <classes>
+            <class name="JALA_Assignment1.Selenium.WorkingLinkTest" />
+            <class name="JALA_Assignment1.Selenium.BrokenLinkTest" /> 
+            <class name="JALA_Assignment1.Selenium.ImageLinksTest" />     
+            <class name="JALA_Assignment1.Selenium.StatuscodesTest" />  
+        </classes>
+    </test>
+    
+    <test name="CSS Prop">
+        <classes>
+            <class name="JALA_Assignment1.Selenium.CssPropertiesTest" />
+            <class name="JALA_Assignment1.Selenium.CSSPropertiesTest1" /> 
+            <class name="JALA_Assignment1.Selenium.CSSPropertiesTest3" />     
+        </classes>
+    </test>
+     <test name="CollapsibleContentTest">
+        <classes>
+            <class name="CollapsibleContent"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Alert(failed)">
+    <classes>
+      <class name="JALA_Assignment1.Selenium.AlertBoxTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testAlertBox"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- JALA_Assignment1.Selenium.AlertBoxTest -->
+      <class name="JALA_Assignment1.Selenium.PromptBoxTest">
+        <methods>
+          <include name="testPromptBox"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- JALA_Assignment1.Selenium.PromptBoxTest -->
+    </classes>
+  </test> <!-- Alert(failed) -->
+</suite> <!-- Failed suite [MyTestSuite] -->
